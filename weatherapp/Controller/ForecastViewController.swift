@@ -14,6 +14,8 @@ class ForecastViewController: UIViewController, UITableViewDelegate, UITableView
     @IBOutlet weak var titleLable: UILabel!
     
     var forecastList = [Forecast]()
+    
+    let storage = ForecastStorage()
 
     let locationManager = CLLocationManager()
     var city = ""
@@ -27,23 +29,27 @@ class ForecastViewController: UIViewController, UITableViewDelegate, UITableView
         forecastTableView.delegate = self
         
         locationManager.delegate = self
-        // Do any additional setup after loading the view.
     }
     
     override func viewWillAppear(_ animated: Bool) {
+        
+        forecastList = storage.getForecastList()
+        print(forecastList)
+        forecastTableView.reloadData()
         
         let userDefaults = UserDefaults.standard
         if let selectedCity = userDefaults.string(forKey: "city") {
             city = selectedCity
             titleLable.text = "Forecast in \(city)"
-            
+
             WeatherAPICLient.getForecast(city: city, cnt: 30, completion: {
                 forecastList in
-                
+
                 self.forecastList = forecastList.list
                 DispatchQueue.main.async() { [weak self] in
-                    
+
                     self?.forecastTableView.reloadData()
+                    self?.storage.storeForecastList(forecastList.list)
                 }
             })
         } else {
@@ -90,11 +96,13 @@ extension ForecastViewController: CLLocationManagerDelegate {
             
             WeatherAPICLient.getForecast(lat: latitude, lon: longitude, cnt: 30, completion: {
                 forecastList in
-                
+
                 self.forecastList = forecastList.list
                 DispatchQueue.main.async() { [weak self] in
-                    
+
                     self?.forecastTableView.reloadData()
+
+                    self?.storage.storeForecastList(forecastList.list)
                 }
             })
             locationManager.stopUpdatingLocation()

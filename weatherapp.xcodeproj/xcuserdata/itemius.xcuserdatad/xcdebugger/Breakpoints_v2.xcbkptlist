@@ -30,8 +30,8 @@
             filePath = "weatherapp/Controller/ForecastViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "52"
-            endingLineNumber = "52"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
             landmarkName = "viewWillAppear(_:)"
             landmarkType = "7">
             <Locations>
@@ -66,6 +66,182 @@
                   offsetFromSymbolStart = "212">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "972B95C7-D71E-401B-B7F9-BCAD6807C1B2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "weatherapp/Service/ForecastStorage.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "storeForecastList(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "972B95C7-D71E-401B-B7F9-BCAD6807C1B2 - 579973bfede193b3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "weatherapp.ForecastStorage.storeForecastList(Swift.Array&lt;weatherapp.Forecast&gt;) -&gt; ()"
+                  moduleName = "weatherapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/itemius/Documents/weatherapp/weatherapp/Service/ForecastStorage.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "427">
+               </Location>
+               <Location
+                  uuid = "972B95C7-D71E-401B-B7F9-BCAD6807C1B2 - 579973bfede193b3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "weatherapp.ForecastStorage.storeForecastList(Swift.Array&lt;weatherapp.Forecast&gt;) -&gt; ()"
+                  moduleName = "weatherapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/itemius/Documents/weatherapp/weatherapp/Service/ForecastStorage.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "408">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8B49DEB8-CAEA-4B4F-9E45-DB16F3936078"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "weatherapp/Controller/ForecastViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "viewWillAppear(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8B49DEB8-CAEA-4B4F-9E45-DB16F3936078 - d2999a02a80feadc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "weatherapp.ForecastViewController.viewWillAppear(Swift.Bool) -&gt; ()"
+                  moduleName = "weatherapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/itemius/Documents/weatherapp/weatherapp/Controller/ForecastViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "208">
+               </Location>
+               <Location
+                  uuid = "8B49DEB8-CAEA-4B4F-9E45-DB16F3936078 - d2999a02a80fea62"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "weatherapp.ForecastViewController.viewWillAppear(Swift.Bool) -&gt; ()"
+                  moduleName = "weatherapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/itemius/Documents/weatherapp/weatherapp/Controller/ForecastViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "124">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F122119E-CBC6-4003-8545-D91316545D3A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "weatherapp/Controller/ForecastViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "viewWillAppear(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F122119E-CBC6-4003-8545-D91316545D3A - d2999a02a80fea62"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "weatherapp.ForecastViewController.viewWillAppear(Swift.Bool) -&gt; ()"
+                  moduleName = "weatherapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/itemius/Documents/weatherapp/weatherapp/Controller/ForecastViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "384">
+               </Location>
+               <Location
+                  uuid = "F122119E-CBC6-4003-8545-D91316545D3A - d2999a02a80fea62"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "weatherapp.ForecastViewController.viewWillAppear(Swift.Bool) -&gt; ()"
+                  moduleName = "weatherapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/itemius/Documents/weatherapp/weatherapp/Controller/ForecastViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "124">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5D8F8C6F-C453-4688-A9C4-220DFB2118C8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "weatherapp/Service/ForecastStorage.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "storeForecastList(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FFE62388-325D-4315-B57D-BD8EB6C502C7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "weatherapp/Service/ForecastStorage.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "storeForecastList(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
